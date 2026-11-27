@@ -36,14 +36,20 @@
             // Console.WriteLine(genre);
             #endregion
 
-
             #region Q5
 
-            Console.WriteLine($"fiction: {(int)Genre.Fiction}");
+            //Console.WriteLine($"fiction: {(int)Genre.Fiction}");
 
-            Console.WriteLine($"NonFiction: {(int)Genre.NonFiction}");
+            //Console.WriteLine($"NonFiction: {(int)Genre.NonFiction}");
 
-            Console.WriteLine($"fiction: {(int)Genre.Science}");
+            //Console.WriteLine($"fiction: {(int)Genre.Science}");
+            #endregion
+
+            #region Q6
+            int genreNumber = 1;
+            Genre g = Enum.IsDefined<Genre>((Genre)genreNumber )? (Genre)genreNumber: 0 ;
+            Console.WriteLine(g);
+
             #endregion
         }
     }
