@@ -46,9 +46,15 @@
             #endregion
 
             #region Q6
-            int genreNumber = 1;
-            Genre g = Enum.IsDefined<Genre>((Genre)genreNumber )? (Genre)genreNumber: 0 ;
-            Console.WriteLine(g);
+            //int genreNumber = 1;
+            //Genre g = Enum.IsDefined<Genre>((Genre)genreNumber )? (Genre)genreNumber: 0 ;
+            //Console.WriteLine(g);
+
+            #endregion
+
+            #region Q7
+            Genre genre = Genre.Fiction;
+            Console.WriteLine(genre.ToString());
 
             #endregion
         }
