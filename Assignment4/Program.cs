@@ -14,6 +14,13 @@
             // لان هو متعرف علي مستوي ال class بس 
             // انا عملت method من جوه ال
             #endregion
+
+            #region Q2
+
+            Console.WriteLine(book.copiesInStock);
+            //عادي ال compler شايفها 
+            //لانها متعرفه علي مستوي ال project
+            #endregion
             
         }
     }
