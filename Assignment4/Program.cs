@@ -9,27 +9,34 @@
             #region Q1
 
             Book book = new Book();
-            book.printPassword();
-            // مش هينقدر نعمل print 
-            // لان هو متعرف علي مستوي ال class بس 
-            // انا عملت method من جوه ال
+            //book.printPassword();
+            //// مش هينقدر نعمل print 
+            //// لان هو متعرف علي مستوي ال class بس 
+            //// انا عملت method من جوه ال
             #endregion
 
             #region Q2
 
-            Console.WriteLine(book.copiesInStock);
-            //عادي ال compler شايفها 
-            //لانها متعرفه علي مستوي ال project
+            //Console.WriteLine(book.copiesInStock);
+            ////عادي ال compler شايفها 
+            ////لانها متعرفه علي مستوي ال project
             #endregion
 
             #region Q3
 
-            book.Title = "Clean Code";
-            Console.WriteLine($"Book Title: {book.Title}");
+            //book.Title = "Clean Code";
+            //Console.WriteLine($"Book Title: {book.Title}");
 
             // هو متعرف علي مستوي العام اي مكان نقدر تستخدمه
             #endregion
-            
+
+            #region Q4
+
+            Genre genre = Genre.Science;
+            Console.WriteLine(genre);
+            #endregion
+
+
         }
     }
 }
