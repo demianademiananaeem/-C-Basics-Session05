@@ -21,6 +21,14 @@
             //عادي ال compler شايفها 
             //لانها متعرفه علي مستوي ال project
             #endregion
+
+            #region Q3
+
+            book.Title = "Clean Code";
+            Console.WriteLine($"Book Title: {book.Title}");
+
+            // هو متعرف علي مستوي العام اي مكان نقدر تستخدمه
+            #endregion
             
         }
     }
